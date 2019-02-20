@@ -2,11 +2,11 @@ import React from 'react'
 import Ionicon from 'react-ionicons'
 import PropTypes from 'prop-types'
 
-function PriceList({ items, onModifyItem, onDeleteItem }) {
+function PriceList({ items, categories, onModifyItem, onDeleteItem }) {
   return (
     <ul className="list-group list-group-flush">
-      {items.map(item => (
-        <li className="list-group-item d-flex justify-content-between align-items-center" key={item.id}>
+      {items.map((item, idx) => (
+        <li className="list-group-item d-flex justify-content-between align-items-center" key={idx}>
           <span className="col-1 badge badge-primary">
             <Ionicon
               className="rounded-circle"

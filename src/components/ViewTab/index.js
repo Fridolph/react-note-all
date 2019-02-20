@@ -1,7 +1,7 @@
 import React from 'react'
 import Ionicon from 'react-ionicons'
 import PropTypes from 'prop-types'
-import { LIST_VIEW, CHART_VIEW } from '../constants'
+import { LIST_VIEW, CHART_VIEW } from '../../constants'
 
 function generateLinkClass(current, view) {
   return (current === view) ? 'nav-link active' : 'nav-link'
@@ -18,7 +18,7 @@ const ViewTab = ({activeTab, onTabChange}) => {
           color={'#007bff'}
           icon="ios-paper"
         />
-        列表模式
+        <span>列表模式</span>
         </a>
       </li>
       <li className="nav-item">
@@ -29,7 +29,7 @@ const ViewTab = ({activeTab, onTabChange}) => {
             color={'#007bff'}
             icon="ios-pie"
           />
-          图表模式
+          <span>图表模式</span>
         </a>
       </li>
     </ul>

@@ -1,0 +1,2673 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@src/components/PriceList should render the component to match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PriceList
+    items={
+      Array [
+        Object {
+          "category": Object {
+            "iconName": "ios-plane",
+            "id": "c001",
+            "name": "旅行",
+            "type": "outcome",
+          },
+          "cid": "c001",
+          "date": "2019-02-01",
+          "id": "i0001",
+          "price": 20000,
+          "title": "去旅游",
+          "type": "outcome",
+        },
+        Object {
+          "category": Object {
+            "iconName": "ios-plane",
+            "id": "c002",
+            "name": "美食",
+            "type": "outcome",
+          },
+          "cid": "c002",
+          "date": "2019-02-02",
+          "id": "i0002",
+          "price": 500,
+          "title": "吃美食",
+          "type": "outcome",
+        },
+        Object {
+          "category": Object {
+            "iconName": "ios-paper",
+            "id": "c003",
+            "name": "挣外块",
+            "type": "income",
+          },
+          "cid": "c003",
+          "date": "2019-02-15",
+          "id": "i0003",
+          "price": 2500,
+          "title": "挣外块",
+          "type": "income",
+        },
+      ]
+    }
+    onDeleteItem={[MockFunction]}
+    onModifyItem={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span
+            className="col-1 badge badge-primary"
+          >
+            <Ionicon
+              beat={false}
+              className="rounded-circle"
+              color="#fff"
+              fontSize="30px"
+              icon="ios-plane"
+              rotate={false}
+              shake={false}
+              style={
+                Object {
+                  "backbgroundColor": "#00fbff",
+                  "padding": "5px",
+                }
+              }
+            />
+          </span>
+          <span
+            className="col-4"
+          >
+            去旅游
+          </span>
+          <span
+            className="col-2 font-weight-bold"
+          >
+            -
+            20000
+            元
+          </span>
+          <span
+            className="col-3"
+          >
+            2019-02-01
+          </span>
+          <span
+            className="col-2"
+          >
+            <a
+              onClick={[Function]}
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-create-outline"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backgroundColor": "#28a745",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </a>
+            <a
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-close"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backgroundColor": "#dc3545",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </a>
+          </span>
+        </li>,
+        <li
+          className="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span
+            className="col-1 badge badge-primary"
+          >
+            <Ionicon
+              beat={false}
+              className="rounded-circle"
+              color="#fff"
+              fontSize="30px"
+              icon="ios-plane"
+              rotate={false}
+              shake={false}
+              style={
+                Object {
+                  "backbgroundColor": "#00fbff",
+                  "padding": "5px",
+                }
+              }
+            />
+          </span>
+          <span
+            className="col-4"
+          >
+            吃美食
+          </span>
+          <span
+            className="col-2 font-weight-bold"
+          >
+            -
+            500
+            元
+          </span>
+          <span
+            className="col-3"
+          >
+            2019-02-02
+          </span>
+          <span
+            className="col-2"
+          >
+            <a
+              onClick={[Function]}
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-create-outline"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backgroundColor": "#28a745",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </a>
+            <a
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-close"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backgroundColor": "#dc3545",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </a>
+          </span>
+        </li>,
+        <li
+          className="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span
+            className="col-1 badge badge-primary"
+          >
+            <Ionicon
+              beat={false}
+              className="rounded-circle"
+              color="#fff"
+              fontSize="30px"
+              icon="ios-paper"
+              rotate={false}
+              shake={false}
+              style={
+                Object {
+                  "backbgroundColor": "#00fbff",
+                  "padding": "5px",
+                }
+              }
+            />
+          </span>
+          <span
+            className="col-4"
+          >
+            挣外块
+          </span>
+          <span
+            className="col-2 font-weight-bold"
+          >
+            +
+            2500
+            元
+          </span>
+          <span
+            className="col-3"
+          >
+            2019-02-15
+          </span>
+          <span
+            className="col-2"
+          >
+            <a
+              onClick={[Function]}
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-create-outline"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backgroundColor": "#28a745",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </a>
+            <a
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-close"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backgroundColor": "#dc3545",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </a>
+          </span>
+        </li>,
+      ],
+      "className": "list-group list-group-flush",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="col-1 badge badge-primary"
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-plane"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </span>,
+            <span
+              className="col-4"
+            >
+              去旅游
+            </span>,
+            <span
+              className="col-2 font-weight-bold"
+            >
+              -
+              20000
+              元
+            </span>,
+            <span
+              className="col-3"
+            >
+              2019-02-01
+            </span>,
+            <span
+              className="col-2"
+            >
+              <a
+                onClick={[Function]}
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-create-outline"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+              <a
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "10px",
+                  }
+                }
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-close"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+            </span>,
+          ],
+          "className": "list-group-item d-flex justify-content-between align-items-center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-plane"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />,
+              "className": "col-1 badge badge-primary",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "beat": false,
+                "className": "rounded-circle",
+                "color": "#fff",
+                "fontSize": "30px",
+                "icon": "ios-plane",
+                "rotate": false,
+                "shake": false,
+                "style": Object {
+                  "backbgroundColor": "#00fbff",
+                  "padding": "5px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "去旅游",
+              "className": "col-4",
+            },
+            "ref": null,
+            "rendered": "去旅游",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "-",
+                20000,
+                "元",
+              ],
+              "className": "col-2 font-weight-bold",
+            },
+            "ref": null,
+            "rendered": Array [
+              "-",
+              20000,
+              "元",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2019-02-01",
+              "className": "col-3",
+            },
+            "ref": null,
+            "rendered": "2019-02-01",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  onClick={[Function]}
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>,
+                <a
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "10px",
+                    }
+                  }
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>,
+              ],
+              "className": "col-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "beat": false,
+                    "className": "rounded-circle",
+                    "color": "#fff",
+                    "fontSize": "30px",
+                    "icon": "ios-create-outline",
+                    "rotate": false,
+                    "shake": false,
+                    "style": Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />,
+                  "onClick": [Function],
+                  "style": Object {
+                    "marginLeft": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "beat": false,
+                    "className": "rounded-circle",
+                    "color": "#fff",
+                    "fontSize": "30px",
+                    "icon": "ios-close",
+                    "rotate": false,
+                    "shake": false,
+                    "style": Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="col-1 badge badge-primary"
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-plane"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </span>,
+            <span
+              className="col-4"
+            >
+              吃美食
+            </span>,
+            <span
+              className="col-2 font-weight-bold"
+            >
+              -
+              500
+              元
+            </span>,
+            <span
+              className="col-3"
+            >
+              2019-02-02
+            </span>,
+            <span
+              className="col-2"
+            >
+              <a
+                onClick={[Function]}
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-create-outline"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+              <a
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "10px",
+                  }
+                }
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-close"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+            </span>,
+          ],
+          "className": "list-group-item d-flex justify-content-between align-items-center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-plane"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />,
+              "className": "col-1 badge badge-primary",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "beat": false,
+                "className": "rounded-circle",
+                "color": "#fff",
+                "fontSize": "30px",
+                "icon": "ios-plane",
+                "rotate": false,
+                "shake": false,
+                "style": Object {
+                  "backbgroundColor": "#00fbff",
+                  "padding": "5px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "吃美食",
+              "className": "col-4",
+            },
+            "ref": null,
+            "rendered": "吃美食",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "-",
+                500,
+                "元",
+              ],
+              "className": "col-2 font-weight-bold",
+            },
+            "ref": null,
+            "rendered": Array [
+              "-",
+              500,
+              "元",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2019-02-02",
+              "className": "col-3",
+            },
+            "ref": null,
+            "rendered": "2019-02-02",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  onClick={[Function]}
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>,
+                <a
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "10px",
+                    }
+                  }
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>,
+              ],
+              "className": "col-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "beat": false,
+                    "className": "rounded-circle",
+                    "color": "#fff",
+                    "fontSize": "30px",
+                    "icon": "ios-create-outline",
+                    "rotate": false,
+                    "shake": false,
+                    "style": Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />,
+                  "onClick": [Function],
+                  "style": Object {
+                    "marginLeft": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "beat": false,
+                    "className": "rounded-circle",
+                    "color": "#fff",
+                    "fontSize": "30px",
+                    "icon": "ios-close",
+                    "rotate": false,
+                    "shake": false,
+                    "style": Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="col-1 badge badge-primary"
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-paper"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </span>,
+            <span
+              className="col-4"
+            >
+              挣外块
+            </span>,
+            <span
+              className="col-2 font-weight-bold"
+            >
+              +
+              2500
+              元
+            </span>,
+            <span
+              className="col-3"
+            >
+              2019-02-15
+            </span>,
+            <span
+              className="col-2"
+            >
+              <a
+                onClick={[Function]}
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-create-outline"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+              <a
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "10px",
+                  }
+                }
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-close"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+            </span>,
+          ],
+          "className": "list-group-item d-flex justify-content-between align-items-center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-paper"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />,
+              "className": "col-1 badge badge-primary",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "beat": false,
+                "className": "rounded-circle",
+                "color": "#fff",
+                "fontSize": "30px",
+                "icon": "ios-paper",
+                "rotate": false,
+                "shake": false,
+                "style": Object {
+                  "backbgroundColor": "#00fbff",
+                  "padding": "5px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "挣外块",
+              "className": "col-4",
+            },
+            "ref": null,
+            "rendered": "挣外块",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "+",
+                2500,
+                "元",
+              ],
+              "className": "col-2 font-weight-bold",
+            },
+            "ref": null,
+            "rendered": Array [
+              "+",
+              2500,
+              "元",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2019-02-15",
+              "className": "col-3",
+            },
+            "ref": null,
+            "rendered": "2019-02-15",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  onClick={[Function]}
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>,
+                <a
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "10px",
+                    }
+                  }
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>,
+              ],
+              "className": "col-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "beat": false,
+                    "className": "rounded-circle",
+                    "color": "#fff",
+                    "fontSize": "30px",
+                    "icon": "ios-create-outline",
+                    "rotate": false,
+                    "shake": false,
+                    "style": Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />,
+                  "onClick": [Function],
+                  "style": Object {
+                    "marginLeft": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "beat": false,
+                    "className": "rounded-circle",
+                    "color": "#fff",
+                    "fontSize": "30px",
+                    "icon": "ios-close",
+                    "rotate": false,
+                    "shake": false,
+                    "style": Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="list-group-item d-flex justify-content-between align-items-center"
+          >
+            <span
+              className="col-1 badge badge-primary"
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-plane"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </span>
+            <span
+              className="col-4"
+            >
+              去旅游
+            </span>
+            <span
+              className="col-2 font-weight-bold"
+            >
+              -
+              20000
+              元
+            </span>
+            <span
+              className="col-3"
+            >
+              2019-02-01
+            </span>
+            <span
+              className="col-2"
+            >
+              <a
+                onClick={[Function]}
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-create-outline"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+              <a
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "10px",
+                  }
+                }
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-close"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+            </span>
+          </li>,
+          <li
+            className="list-group-item d-flex justify-content-between align-items-center"
+          >
+            <span
+              className="col-1 badge badge-primary"
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-plane"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </span>
+            <span
+              className="col-4"
+            >
+              吃美食
+            </span>
+            <span
+              className="col-2 font-weight-bold"
+            >
+              -
+              500
+              元
+            </span>
+            <span
+              className="col-3"
+            >
+              2019-02-02
+            </span>
+            <span
+              className="col-2"
+            >
+              <a
+                onClick={[Function]}
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-create-outline"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+              <a
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "10px",
+                  }
+                }
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-close"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+            </span>
+          </li>,
+          <li
+            className="list-group-item d-flex justify-content-between align-items-center"
+          >
+            <span
+              className="col-1 badge badge-primary"
+            >
+              <Ionicon
+                beat={false}
+                className="rounded-circle"
+                color="#fff"
+                fontSize="30px"
+                icon="ios-paper"
+                rotate={false}
+                shake={false}
+                style={
+                  Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  }
+                }
+              />
+            </span>
+            <span
+              className="col-4"
+            >
+              挣外块
+            </span>
+            <span
+              className="col-2 font-weight-bold"
+            >
+              +
+              2500
+              元
+            </span>
+            <span
+              className="col-3"
+            >
+              2019-02-15
+            </span>
+            <span
+              className="col-2"
+            >
+              <a
+                onClick={[Function]}
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-create-outline"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#28a745",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+              <a
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "10px",
+                  }
+                }
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-close"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backgroundColor": "#dc3545",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </a>
+            </span>
+          </li>,
+        ],
+        "className": "list-group list-group-flush",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="col-1 badge badge-primary"
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-plane"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backbgroundColor": "#00fbff",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </span>,
+              <span
+                className="col-4"
+              >
+                去旅游
+              </span>,
+              <span
+                className="col-2 font-weight-bold"
+              >
+                -
+                20000
+                元
+              </span>,
+              <span
+                className="col-3"
+              >
+                2019-02-01
+              </span>,
+              <span
+                className="col-2"
+              >
+                <a
+                  onClick={[Function]}
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>
+                <a
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "10px",
+                    }
+                  }
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>
+              </span>,
+            ],
+            "className": "list-group-item d-flex justify-content-between align-items-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-plane"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backbgroundColor": "#00fbff",
+                      "padding": "5px",
+                    }
+                  }
+                />,
+                "className": "col-1 badge badge-primary",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "beat": false,
+                  "className": "rounded-circle",
+                  "color": "#fff",
+                  "fontSize": "30px",
+                  "icon": "ios-plane",
+                  "rotate": false,
+                  "shake": false,
+                  "style": Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "去旅游",
+                "className": "col-4",
+              },
+              "ref": null,
+              "rendered": "去旅游",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "-",
+                  20000,
+                  "元",
+                ],
+                "className": "col-2 font-weight-bold",
+              },
+              "ref": null,
+              "rendered": Array [
+                "-",
+                20000,
+                "元",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2019-02-01",
+                "className": "col-3",
+              },
+              "ref": null,
+              "rendered": "2019-02-01",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    onClick={[Function]}
+                  >
+                    <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-create-outline"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#28a745",
+                          "padding": "5px",
+                        }
+                      }
+                    />
+                  </a>,
+                  <a
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "marginLeft": "10px",
+                      }
+                    }
+                  >
+                    <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-close"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#dc3545",
+                          "padding": "5px",
+                        }
+                      }
+                    />
+                  </a>,
+                ],
+                "className": "col-2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-create-outline"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#28a745",
+                          "padding": "5px",
+                        }
+                      }
+                    />,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "beat": false,
+                      "className": "rounded-circle",
+                      "color": "#fff",
+                      "fontSize": "30px",
+                      "icon": "ios-create-outline",
+                      "rotate": false,
+                      "shake": false,
+                      "style": Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-close"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#dc3545",
+                          "padding": "5px",
+                        }
+                      }
+                    />,
+                    "onClick": [Function],
+                    "style": Object {
+                      "marginLeft": "10px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "beat": false,
+                      "className": "rounded-circle",
+                      "color": "#fff",
+                      "fontSize": "30px",
+                      "icon": "ios-close",
+                      "rotate": false,
+                      "shake": false,
+                      "style": Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="col-1 badge badge-primary"
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-plane"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backbgroundColor": "#00fbff",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </span>,
+              <span
+                className="col-4"
+              >
+                吃美食
+              </span>,
+              <span
+                className="col-2 font-weight-bold"
+              >
+                -
+                500
+                元
+              </span>,
+              <span
+                className="col-3"
+              >
+                2019-02-02
+              </span>,
+              <span
+                className="col-2"
+              >
+                <a
+                  onClick={[Function]}
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>
+                <a
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "10px",
+                    }
+                  }
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>
+              </span>,
+            ],
+            "className": "list-group-item d-flex justify-content-between align-items-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-plane"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backbgroundColor": "#00fbff",
+                      "padding": "5px",
+                    }
+                  }
+                />,
+                "className": "col-1 badge badge-primary",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "beat": false,
+                  "className": "rounded-circle",
+                  "color": "#fff",
+                  "fontSize": "30px",
+                  "icon": "ios-plane",
+                  "rotate": false,
+                  "shake": false,
+                  "style": Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "吃美食",
+                "className": "col-4",
+              },
+              "ref": null,
+              "rendered": "吃美食",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "-",
+                  500,
+                  "元",
+                ],
+                "className": "col-2 font-weight-bold",
+              },
+              "ref": null,
+              "rendered": Array [
+                "-",
+                500,
+                "元",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2019-02-02",
+                "className": "col-3",
+              },
+              "ref": null,
+              "rendered": "2019-02-02",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    onClick={[Function]}
+                  >
+                    <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-create-outline"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#28a745",
+                          "padding": "5px",
+                        }
+                      }
+                    />
+                  </a>,
+                  <a
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "marginLeft": "10px",
+                      }
+                    }
+                  >
+                    <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-close"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#dc3545",
+                          "padding": "5px",
+                        }
+                      }
+                    />
+                  </a>,
+                ],
+                "className": "col-2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-create-outline"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#28a745",
+                          "padding": "5px",
+                        }
+                      }
+                    />,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "beat": false,
+                      "className": "rounded-circle",
+                      "color": "#fff",
+                      "fontSize": "30px",
+                      "icon": "ios-create-outline",
+                      "rotate": false,
+                      "shake": false,
+                      "style": Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-close"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#dc3545",
+                          "padding": "5px",
+                        }
+                      }
+                    />,
+                    "onClick": [Function],
+                    "style": Object {
+                      "marginLeft": "10px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "beat": false,
+                      "className": "rounded-circle",
+                      "color": "#fff",
+                      "fontSize": "30px",
+                      "icon": "ios-close",
+                      "rotate": false,
+                      "shake": false,
+                      "style": Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="col-1 badge badge-primary"
+              >
+                <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-paper"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backbgroundColor": "#00fbff",
+                      "padding": "5px",
+                    }
+                  }
+                />
+              </span>,
+              <span
+                className="col-4"
+              >
+                挣外块
+              </span>,
+              <span
+                className="col-2 font-weight-bold"
+              >
+                +
+                2500
+                元
+              </span>,
+              <span
+                className="col-3"
+              >
+                2019-02-15
+              </span>,
+              <span
+                className="col-2"
+              >
+                <a
+                  onClick={[Function]}
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-create-outline"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>
+                <a
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "10px",
+                    }
+                  }
+                >
+                  <Ionicon
+                    beat={false}
+                    className="rounded-circle"
+                    color="#fff"
+                    fontSize="30px"
+                    icon="ios-close"
+                    rotate={false}
+                    shake={false}
+                    style={
+                      Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      }
+                    }
+                  />
+                </a>
+              </span>,
+            ],
+            "className": "list-group-item d-flex justify-content-between align-items-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Ionicon
+                  beat={false}
+                  className="rounded-circle"
+                  color="#fff"
+                  fontSize="30px"
+                  icon="ios-paper"
+                  rotate={false}
+                  shake={false}
+                  style={
+                    Object {
+                      "backbgroundColor": "#00fbff",
+                      "padding": "5px",
+                    }
+                  }
+                />,
+                "className": "col-1 badge badge-primary",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "beat": false,
+                  "className": "rounded-circle",
+                  "color": "#fff",
+                  "fontSize": "30px",
+                  "icon": "ios-paper",
+                  "rotate": false,
+                  "shake": false,
+                  "style": Object {
+                    "backbgroundColor": "#00fbff",
+                    "padding": "5px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "挣外块",
+                "className": "col-4",
+              },
+              "ref": null,
+              "rendered": "挣外块",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "+",
+                  2500,
+                  "元",
+                ],
+                "className": "col-2 font-weight-bold",
+              },
+              "ref": null,
+              "rendered": Array [
+                "+",
+                2500,
+                "元",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2019-02-15",
+                "className": "col-3",
+              },
+              "ref": null,
+              "rendered": "2019-02-15",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    onClick={[Function]}
+                  >
+                    <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-create-outline"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#28a745",
+                          "padding": "5px",
+                        }
+                      }
+                    />
+                  </a>,
+                  <a
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "marginLeft": "10px",
+                      }
+                    }
+                  >
+                    <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-close"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#dc3545",
+                          "padding": "5px",
+                        }
+                      }
+                    />
+                  </a>,
+                ],
+                "className": "col-2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-create-outline"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#28a745",
+                          "padding": "5px",
+                        }
+                      }
+                    />,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "beat": false,
+                      "className": "rounded-circle",
+                      "color": "#fff",
+                      "fontSize": "30px",
+                      "icon": "ios-create-outline",
+                      "rotate": false,
+                      "shake": false,
+                      "style": Object {
+                        "backgroundColor": "#28a745",
+                        "padding": "5px",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Ionicon
+                      beat={false}
+                      className="rounded-circle"
+                      color="#fff"
+                      fontSize="30px"
+                      icon="ios-close"
+                      rotate={false}
+                      shake={false}
+                      style={
+                        Object {
+                          "backgroundColor": "#dc3545",
+                          "padding": "5px",
+                        }
+                      }
+                    />,
+                    "onClick": [Function],
+                    "style": Object {
+                      "marginLeft": "10px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "beat": false,
+                      "className": "rounded-circle",
+                      "color": "#fff",
+                      "fontSize": "30px",
+                      "icon": "ios-close",
+                      "rotate": false,
+                      "shake": false,
+                      "style": Object {
+                        "backgroundColor": "#dc3545",
+                        "padding": "5px",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

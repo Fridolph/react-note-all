@@ -7,8 +7,8 @@ class MonthPicker extends Component {
     super(props)
     this.state = {
       isOpen: false,
-      selectedYear: 2019,
-      selectedMonth: 2,
+      selectedYear: this.props.year,
+      selectedMonth: this.props.month,
     }
   }
 
@@ -29,10 +29,13 @@ class MonthPicker extends Component {
   selectMonth = (event, month) => {
     event.preventDefault()
     const year = this.state.selectedYear
-    console.log('selectDate: ', year, month)
     this.setState({
       selectedMonth: month,
       isOpen: false
+    })
+    this.props.onDateChange({
+      year,
+      month
     })
   }
 
@@ -50,7 +53,7 @@ class MonthPicker extends Component {
 
     return (
       <div className="dropdown month-picker-component">
-        <h5 style={{color: '#ddd'}}>选择月份</h5>
+        <h5 style={{color: '#ddd'}}>选择时间</h5>
         <button
           className="btn btn-lg btn-secondary dropdown-toggle"
           onClick={this.toggleDropdown}
@@ -59,6 +62,15 @@ class MonthPicker extends Component {
         </button>
         {
           isOpen && <div className="dropdown-menu" style={{display: 'block'}}>
+            {/* <div className="row">
+              <div className="col">
+                <a
+                  className="dropdown-item"
+                  href="#">
+                  所有日期
+                </a>
+              </div>
+            </div> */}
             <div className="row">
               <div className="col border-right">
                 { yearRange.map((y, i) =>

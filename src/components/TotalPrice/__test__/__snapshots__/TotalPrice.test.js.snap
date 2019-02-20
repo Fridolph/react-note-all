@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@src/components/TotalPrice snapshot能匹配 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TotalPrice
+    income={1000}
+    outcome={2000}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="row"
+      >
+        <h4
+          className="col income"
+          style={
+            Object {
+              "margin": "30px 0",
+              "textAlign": "center",
+            }
+          }
+        >
+          收入：
+          <span>
+            1000
+          </span>
+        </h4>
+        <h4
+          className="col outcome"
+          style={
+            Object {
+              "margin": "30px 0",
+              "textAlign": "center",
+            }
+          }
+        >
+          支出：
+          <span>
+            2000
+          </span>
+        </h4>
+      </div>,
+      "className": "container-fluid",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="col income"
+            style={
+              Object {
+                "margin": "30px 0",
+                "textAlign": "center",
+              }
+            }
+          >
+            收入：
+            <span>
+              1000
+            </span>
+          </h4>,
+          <h4
+            className="col outcome"
+            style={
+              Object {
+                "margin": "30px 0",
+                "textAlign": "center",
+              }
+            }
+          >
+            支出：
+            <span>
+              2000
+            </span>
+          </h4>,
+        ],
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "收入：",
+              <span>
+                1000
+              </span>,
+            ],
+            "className": "col income",
+            "style": Object {
+              "margin": "30px 0",
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "收入：",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 1000,
+              },
+              "ref": null,
+              "rendered": 1000,
+              "type": "span",
+            },
+          ],
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "支出：",
+              <span>
+                2000
+              </span>,
+            ],
+            "className": "col outcome",
+            "style": Object {
+              "margin": "30px 0",
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "支出：",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2000,
+              },
+              "ref": null,
+              "rendered": 2000,
+              "type": "span",
+            },
+          ],
+          "type": "h4",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <h4
+            className="col income"
+            style={
+              Object {
+                "margin": "30px 0",
+                "textAlign": "center",
+              }
+            }
+          >
+            收入：
+            <span>
+              1000
+            </span>
+          </h4>
+          <h4
+            className="col outcome"
+            style={
+              Object {
+                "margin": "30px 0",
+                "textAlign": "center",
+              }
+            }
+          >
+            支出：
+            <span>
+              2000
+            </span>
+          </h4>
+        </div>,
+        "className": "container-fluid",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4
+              className="col income"
+              style={
+                Object {
+                  "margin": "30px 0",
+                  "textAlign": "center",
+                }
+              }
+            >
+              收入：
+              <span>
+                1000
+              </span>
+            </h4>,
+            <h4
+              className="col outcome"
+              style={
+                Object {
+                  "margin": "30px 0",
+                  "textAlign": "center",
+                }
+              }
+            >
+              支出：
+              <span>
+                2000
+              </span>
+            </h4>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "收入：",
+                <span>
+                  1000
+                </span>,
+              ],
+              "className": "col income",
+              "style": Object {
+                "margin": "30px 0",
+                "textAlign": "center",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "收入：",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1000,
+                },
+                "ref": null,
+                "rendered": 1000,
+                "type": "span",
+              },
+            ],
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "支出：",
+                <span>
+                  2000
+                </span>,
+              ],
+              "className": "col outcome",
+              "style": Object {
+                "margin": "30px 0",
+                "textAlign": "center",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "支出：",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2000,
+                },
+                "ref": null,
+                "rendered": 2000,
+                "type": "span",
+              },
+            ],
+            "type": "h4",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

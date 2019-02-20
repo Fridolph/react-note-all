@@ -15,5 +15,3 @@ React-Router 和 SPA -> 整个应用状态分析和提取 -> 使用 Context 整�
 ## 对接后端及上线
 
 JSON-Server 打造 Mock 环境 -> 使用 Axios 完成异步逻辑 -> 使用 LeanCloud 完成应用部署
-
----

@@ -1,66 +1,139 @@
 import React, {Component} from 'react'
 // import './home.css'
-import TotalPrice from '../../components/TotalPrice'
-import MonthPicker from '../../components/MonthPicker'
-import ViewTab from '../../components/ViewTab'
-import PriceList from '../../components/PriceList'
-import CreateBtn from '../../components/CreateBtn'
+import TotalPrice from '../../components/TotalPrice/index'
+import MonthPicker from '../../components/MonthPicker/index'
+import ViewTab from '../../components/ViewTab/index'
+import PriceList from '../../components/PriceList/index'
+import CreateBtn from '../../components/CreateBtn/index'
 
 import { LIST_VIEW, CHART_VIEW } from '../../constants'
+import {padLeft, padItemId, parseToYearAndMonth, newDate} from '../../utils'
 
-const items = [{
-  id: 'i0001',
-  title: '去旅游',
-  price: 20000,
-  date: '2018-09-30',
-  category: {
-    id: 'c0001',
+export const categories = {
+  'c001': {
+    id: 'c001',
     name: '旅行',
     type: 'outcome',
     iconName: 'ios-plane'
-  }
-},
-{
-  id: 'i0002',
-  title: '吃美食',
-  price: 500,
-  date: '2018-10-01',
-  category: {
-    id: 'c0002',
+  },
+  'c002': {
+    id: 'c002',
     name: '美食',
     type: 'outcome',
     iconName: 'ios-plane'
+  },
+  'c003': {
+    id: 'c003',
+    name: '挣外块',
+    type: 'income',
+    iconName: 'ios-paper'
   }
 }
+
+export const items = [
+  {
+    id: 'i0001',
+    title: '去旅游',
+    price: 20000,
+    date: '2019-02-01',
+    type: 'outcome',
+    cid: 'c001'
+  },
+  {
+    id: 'i0002',
+    title: '吃美食',
+    price: 500,
+    date: '2019-02-02',
+    type: 'outcome',
+    cid: 'c002'
+  },
+  {
+    id: 'i0003',
+    title: '挣外块',
+    price: 2500,
+    date: '2019-02-15',
+    type: 'income',
+    cid: 'c003'
+  }
 ]
 
-let income = 0
-let outcome = 20500
+let itemId = 3
 
-export default class Home extends Component {
-  onModifyItem = () => {
-    console.log('onModifyItem')
+class Home extends Component {
+  constructor() {
+    super()
+    this.state = {
+      income: 0,
+      outcome: 20500,
+      currentDate: parseToYearAndMonth(),
+      tabView: LIST_VIEW,
+      items
+    }
   }
 
-  onDeleteItem = () => {
-    console.log('onDeleteItem')
+  onDateChange = date => {
+    const {items} = this.state
+    console.log('onDateChange: ', date)
+    this.setState({
+      currentDate: date
+    })
+  }
+
+  onModifyItem = curItemId => {
+    const updatedItems = this.state.items.map(item => {
+      if (item.id === curItemId) {
+        return {...item, title: '更新后的标题'}
+      } else {
+        return item
+      }
+    })
+    this.setState({
+      items: updatedItems
+    })
+  }
+
+  onDeleteItem = curItemId => {
+    const updatedItems = this.state.items.filter(item => item.id !== curItemId)
+    this.setState({
+      items: updatedItems
+    })
   }
 
   onTabChange = (view) => {
-    console.log('onTabChange', view)
+    this.setState({
+      tabView: view
+    })
   }
 
-  onCreateNew = () => {
-    console.log('onCreateNew ')
+  createItem = () => {
+    const newItem = {
+      id: padItemId((++itemId)),
+      title: '新添加的项目',
+      price: 0,
+      date: newDate(),
+      cid: 'c003'
+    }
+    this.setState({
+      items: [newItem, ...this.state.items]
+    })
   }
 
   render() {
+    const {currentDate, income, outcome, tabView, items} = this.state
+    const itemsWithCategory = items.map(item => {
+      item.category = categories[item.cid]
+      return item
+    }).filter(item => item.date.includes(`${currentDate.year}-${padLeft(currentDate.month)}`))
     return (
       <React.Fragment>
         <header className="app-header container-fluid">
           <div className="row">
             <div className="col-4">
-              <MonthPicker />
+              <MonthPicker
+                year={currentDate.year}
+                month={currentDate.month}
+                onDateChange={this.onDateChange}
+              />
             </div>
             <div className="col-8">
               <TotalPrice
@@ -73,22 +146,25 @@ export default class Home extends Component {
 
         <div className="contant-area py-3 px-3">
           <ViewTab
-            activeTab={LIST_VIEW}
+            activeTab={tabView}
             onTabChange={this.onTabChange}
           />
 
-          <CreateBtn onClick={() => console.log('CreateBtn click')} />
+          <CreateBtn onClick={this.createItem} />
 
-          <PriceList
-            items={items}
-            onModifyItem={this.onModifyItem}
-            onDeleteItem={this.onDeleteItem}
-          />
-
+          {
+            tabView === LIST_VIEW ? (
+              <PriceList
+                items={itemsWithCategory}
+                onModifyItem={this.onModifyItem}
+                onDeleteItem={this.onDeleteItem}
+              />
+            ) : '这里是图表模式的区域'
+          }
         </div>
-
-
       </React.Fragment>
     )
   }
 }
+
+export default Home
