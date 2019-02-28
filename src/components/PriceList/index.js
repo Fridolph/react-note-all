@@ -7,7 +7,7 @@ function PriceList({ items, categories, onModifyItem, onDeleteItem }) {
     <ul className="list-group list-group-flush">
       {items.map((item, idx) => (
         <li className="list-group-item d-flex justify-content-between align-items-center" key={idx}>
-          <span className="col-1 badge badge-primary">
+          <span className="type-icon col-1 badge badge-primary">
             <Ionicon
               className="rounded-circle"
               fontSize="30px"
@@ -16,11 +16,11 @@ function PriceList({ items, categories, onModifyItem, onDeleteItem }) {
               icon={item.category.iconName}
             />
           </span>
-          <span className="col-4">{item.title}</span>
-          <span className="col-2 font-weight-bold">{item.category.type === 'income' ? '+' : '-'}{item.price}元</span>
-          <span className="col-3">{item.date}</span>
-          <span className="col-2">
-            <a onClick={() => onModifyItem(item.id)}>
+          <span className="title-name col-4">{item.title}</span>
+          <span className="price col-2 font-weight-bold">{item.category.type === 'income' ? '+' : '-'}{item.price}元</span>
+          <span className="date col-3">{item.date}</span>
+          <span className="control-btn-group col-2">
+            <a className="btn-modify" onClick={() => onModifyItem(item.id)}>
               <Ionicon
                 className="rounded-circle"
                 fontSize="30px"
@@ -29,7 +29,7 @@ function PriceList({ items, categories, onModifyItem, onDeleteItem }) {
                 icon="ios-create-outline"
               />
             </a>
-            <a style={{marginLeft: '10px'}} onClick={() => onDeleteItem(item.id)}>
+            <a className="btn-delete" style={{marginLeft: '10px'}} onClick={() => onDeleteItem(item.id)}>
               <Ionicon
                 className="rounded-circle"
                 fontSize="30px"

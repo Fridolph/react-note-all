@@ -72,7 +72,7 @@ ShallowWrapper {
           className="list-group-item d-flex justify-content-between align-items-center"
         >
           <span
-            className="col-1 badge badge-primary"
+            className="type-icon col-1 badge badge-primary"
           >
             <Ionicon
               beat={false}
@@ -91,26 +91,27 @@ ShallowWrapper {
             />
           </span>
           <span
-            className="col-4"
+            className="title-name col-4"
           >
             去旅游
           </span>
           <span
-            className="col-2 font-weight-bold"
+            className="price col-2 font-weight-bold"
           >
             -
             20000
             元
           </span>
           <span
-            className="col-3"
+            className="date col-3"
           >
             2019-02-01
           </span>
           <span
-            className="col-2"
+            className="control-btn-group col-2"
           >
             <a
+              className="btn-modify"
               onClick={[Function]}
             >
               <Ionicon
@@ -130,6 +131,7 @@ ShallowWrapper {
               />
             </a>
             <a
+              className="btn-delete"
               onClick={[Function]}
               style={
                 Object {
@@ -159,7 +161,7 @@ ShallowWrapper {
           className="list-group-item d-flex justify-content-between align-items-center"
         >
           <span
-            className="col-1 badge badge-primary"
+            className="type-icon col-1 badge badge-primary"
           >
             <Ionicon
               beat={false}
@@ -178,26 +180,27 @@ ShallowWrapper {
             />
           </span>
           <span
-            className="col-4"
+            className="title-name col-4"
           >
             吃美食
           </span>
           <span
-            className="col-2 font-weight-bold"
+            className="price col-2 font-weight-bold"
           >
             -
             500
             元
           </span>
           <span
-            className="col-3"
+            className="date col-3"
           >
             2019-02-02
           </span>
           <span
-            className="col-2"
+            className="control-btn-group col-2"
           >
             <a
+              className="btn-modify"
               onClick={[Function]}
             >
               <Ionicon
@@ -217,6 +220,7 @@ ShallowWrapper {
               />
             </a>
             <a
+              className="btn-delete"
               onClick={[Function]}
               style={
                 Object {
@@ -246,7 +250,7 @@ ShallowWrapper {
           className="list-group-item d-flex justify-content-between align-items-center"
         >
           <span
-            className="col-1 badge badge-primary"
+            className="type-icon col-1 badge badge-primary"
           >
             <Ionicon
               beat={false}
@@ -265,26 +269,27 @@ ShallowWrapper {
             />
           </span>
           <span
-            className="col-4"
+            className="title-name col-4"
           >
             挣外块
           </span>
           <span
-            className="col-2 font-weight-bold"
+            className="price col-2 font-weight-bold"
           >
             +
             2500
             元
           </span>
           <span
-            className="col-3"
+            className="date col-3"
           >
             2019-02-15
           </span>
           <span
-            className="col-2"
+            className="control-btn-group col-2"
           >
             <a
+              className="btn-modify"
               onClick={[Function]}
             >
               <Ionicon
@@ -304,6 +309,7 @@ ShallowWrapper {
               />
             </a>
             <a
+              className="btn-delete"
               onClick={[Function]}
               style={
                 Object {
@@ -341,7 +347,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="col-1 badge badge-primary"
+              className="type-icon col-1 badge badge-primary"
             >
               <Ionicon
                 beat={false}
@@ -360,26 +366,27 @@ ShallowWrapper {
               />
             </span>,
             <span
-              className="col-4"
+              className="title-name col-4"
             >
               去旅游
             </span>,
             <span
-              className="col-2 font-weight-bold"
+              className="price col-2 font-weight-bold"
             >
               -
               20000
               元
             </span>,
             <span
-              className="col-3"
+              className="date col-3"
             >
               2019-02-01
             </span>,
             <span
-              className="col-2"
+              className="control-btn-group col-2"
             >
               <a
+                className="btn-modify"
                 onClick={[Function]}
               >
                 <Ionicon
@@ -399,6 +406,7 @@ ShallowWrapper {
                 />
               </a>
               <a
+                className="btn-delete"
                 onClick={[Function]}
                 style={
                   Object {
@@ -448,7 +456,7 @@ ShallowWrapper {
                   }
                 }
               />,
-              "className": "col-1 badge badge-primary",
+              "className": "type-icon col-1 badge badge-primary",
             },
             "ref": null,
             "rendered": Object {
@@ -480,7 +488,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "去旅游",
-              "className": "col-4",
+              "className": "title-name col-4",
             },
             "ref": null,
             "rendered": "去旅游",
@@ -496,7 +504,7 @@ ShallowWrapper {
                 20000,
                 "元",
               ],
-              "className": "col-2 font-weight-bold",
+              "className": "price col-2 font-weight-bold",
             },
             "ref": null,
             "rendered": Array [
@@ -512,7 +520,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "2019-02-01",
-              "className": "col-3",
+              "className": "date col-3",
             },
             "ref": null,
             "rendered": "2019-02-01",
@@ -525,6 +533,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <a
+                  className="btn-modify"
                   onClick={[Function]}
                 >
                   <Ionicon
@@ -544,6 +553,7 @@ ShallowWrapper {
                   />
                 </a>,
                 <a
+                  className="btn-delete"
                   onClick={[Function]}
                   style={
                     Object {
@@ -568,7 +578,7 @@ ShallowWrapper {
                   />
                 </a>,
               ],
-              "className": "col-2",
+              "className": "control-btn-group col-2",
             },
             "ref": null,
             "rendered": Array [
@@ -592,6 +602,7 @@ ShallowWrapper {
                       }
                     }
                   />,
+                  "className": "btn-modify",
                   "onClick": [Function],
                 },
                 "ref": null,
@@ -638,6 +649,7 @@ ShallowWrapper {
                       }
                     }
                   />,
+                  "className": "btn-delete",
                   "onClick": [Function],
                   "style": Object {
                     "marginLeft": "10px",
@@ -680,7 +692,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="col-1 badge badge-primary"
+              className="type-icon col-1 badge badge-primary"
             >
               <Ionicon
                 beat={false}
@@ -699,26 +711,27 @@ ShallowWrapper {
               />
             </span>,
             <span
-              className="col-4"
+              className="title-name col-4"
             >
               吃美食
             </span>,
             <span
-              className="col-2 font-weight-bold"
+              className="price col-2 font-weight-bold"
             >
               -
               500
               元
             </span>,
             <span
-              className="col-3"
+              className="date col-3"
             >
               2019-02-02
             </span>,
             <span
-              className="col-2"
+              className="control-btn-group col-2"
             >
               <a
+                className="btn-modify"
                 onClick={[Function]}
               >
                 <Ionicon
@@ -738,6 +751,7 @@ ShallowWrapper {
                 />
               </a>
               <a
+                className="btn-delete"
                 onClick={[Function]}
                 style={
                   Object {
@@ -787,7 +801,7 @@ ShallowWrapper {
                   }
                 }
               />,
-              "className": "col-1 badge badge-primary",
+              "className": "type-icon col-1 badge badge-primary",
             },
             "ref": null,
             "rendered": Object {
@@ -819,7 +833,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "吃美食",
-              "className": "col-4",
+              "className": "title-name col-4",
             },
             "ref": null,
             "rendered": "吃美食",
@@ -835,7 +849,7 @@ ShallowWrapper {
                 500,
                 "元",
               ],
-              "className": "col-2 font-weight-bold",
+              "className": "price col-2 font-weight-bold",
             },
             "ref": null,
             "rendered": Array [
@@ -851,7 +865,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "2019-02-02",
-              "className": "col-3",
+              "className": "date col-3",
             },
             "ref": null,
             "rendered": "2019-02-02",
@@ -864,6 +878,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <a
+                  className="btn-modify"
                   onClick={[Function]}
                 >
                   <Ionicon
@@ -883,6 +898,7 @@ ShallowWrapper {
                   />
                 </a>,
                 <a
+                  className="btn-delete"
                   onClick={[Function]}
                   style={
                     Object {
@@ -907,7 +923,7 @@ ShallowWrapper {
                   />
                 </a>,
               ],
-              "className": "col-2",
+              "className": "control-btn-group col-2",
             },
             "ref": null,
             "rendered": Array [
@@ -931,6 +947,7 @@ ShallowWrapper {
                       }
                     }
                   />,
+                  "className": "btn-modify",
                   "onClick": [Function],
                 },
                 "ref": null,
@@ -977,6 +994,7 @@ ShallowWrapper {
                       }
                     }
                   />,
+                  "className": "btn-delete",
                   "onClick": [Function],
                   "style": Object {
                     "marginLeft": "10px",
@@ -1019,7 +1037,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="col-1 badge badge-primary"
+              className="type-icon col-1 badge badge-primary"
             >
               <Ionicon
                 beat={false}
@@ -1038,26 +1056,27 @@ ShallowWrapper {
               />
             </span>,
             <span
-              className="col-4"
+              className="title-name col-4"
             >
               挣外块
             </span>,
             <span
-              className="col-2 font-weight-bold"
+              className="price col-2 font-weight-bold"
             >
               +
               2500
               元
             </span>,
             <span
-              className="col-3"
+              className="date col-3"
             >
               2019-02-15
             </span>,
             <span
-              className="col-2"
+              className="control-btn-group col-2"
             >
               <a
+                className="btn-modify"
                 onClick={[Function]}
               >
                 <Ionicon
@@ -1077,6 +1096,7 @@ ShallowWrapper {
                 />
               </a>
               <a
+                className="btn-delete"
                 onClick={[Function]}
                 style={
                   Object {
@@ -1126,7 +1146,7 @@ ShallowWrapper {
                   }
                 }
               />,
-              "className": "col-1 badge badge-primary",
+              "className": "type-icon col-1 badge badge-primary",
             },
             "ref": null,
             "rendered": Object {
@@ -1158,7 +1178,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "挣外块",
-              "className": "col-4",
+              "className": "title-name col-4",
             },
             "ref": null,
             "rendered": "挣外块",
@@ -1174,7 +1194,7 @@ ShallowWrapper {
                 2500,
                 "元",
               ],
-              "className": "col-2 font-weight-bold",
+              "className": "price col-2 font-weight-bold",
             },
             "ref": null,
             "rendered": Array [
@@ -1190,7 +1210,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "2019-02-15",
-              "className": "col-3",
+              "className": "date col-3",
             },
             "ref": null,
             "rendered": "2019-02-15",
@@ -1203,6 +1223,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <a
+                  className="btn-modify"
                   onClick={[Function]}
                 >
                   <Ionicon
@@ -1222,6 +1243,7 @@ ShallowWrapper {
                   />
                 </a>,
                 <a
+                  className="btn-delete"
                   onClick={[Function]}
                   style={
                     Object {
@@ -1246,7 +1268,7 @@ ShallowWrapper {
                   />
                 </a>,
               ],
-              "className": "col-2",
+              "className": "control-btn-group col-2",
             },
             "ref": null,
             "rendered": Array [
@@ -1270,6 +1292,7 @@ ShallowWrapper {
                       }
                     }
                   />,
+                  "className": "btn-modify",
                   "onClick": [Function],
                 },
                 "ref": null,
@@ -1316,6 +1339,7 @@ ShallowWrapper {
                       }
                     }
                   />,
+                  "className": "btn-delete",
                   "onClick": [Function],
                   "style": Object {
                     "marginLeft": "10px",
@@ -1365,7 +1389,7 @@ ShallowWrapper {
             className="list-group-item d-flex justify-content-between align-items-center"
           >
             <span
-              className="col-1 badge badge-primary"
+              className="type-icon col-1 badge badge-primary"
             >
               <Ionicon
                 beat={false}
@@ -1384,26 +1408,27 @@ ShallowWrapper {
               />
             </span>
             <span
-              className="col-4"
+              className="title-name col-4"
             >
               去旅游
             </span>
             <span
-              className="col-2 font-weight-bold"
+              className="price col-2 font-weight-bold"
             >
               -
               20000
               元
             </span>
             <span
-              className="col-3"
+              className="date col-3"
             >
               2019-02-01
             </span>
             <span
-              className="col-2"
+              className="control-btn-group col-2"
             >
               <a
+                className="btn-modify"
                 onClick={[Function]}
               >
                 <Ionicon
@@ -1423,6 +1448,7 @@ ShallowWrapper {
                 />
               </a>
               <a
+                className="btn-delete"
                 onClick={[Function]}
                 style={
                   Object {
@@ -1452,7 +1478,7 @@ ShallowWrapper {
             className="list-group-item d-flex justify-content-between align-items-center"
           >
             <span
-              className="col-1 badge badge-primary"
+              className="type-icon col-1 badge badge-primary"
             >
               <Ionicon
                 beat={false}
@@ -1471,26 +1497,27 @@ ShallowWrapper {
               />
             </span>
             <span
-              className="col-4"
+              className="title-name col-4"
             >
               吃美食
             </span>
             <span
-              className="col-2 font-weight-bold"
+              className="price col-2 font-weight-bold"
             >
               -
               500
               元
             </span>
             <span
-              className="col-3"
+              className="date col-3"
             >
               2019-02-02
             </span>
             <span
-              className="col-2"
+              className="control-btn-group col-2"
             >
               <a
+                className="btn-modify"
                 onClick={[Function]}
               >
                 <Ionicon
@@ -1510,6 +1537,7 @@ ShallowWrapper {
                 />
               </a>
               <a
+                className="btn-delete"
                 onClick={[Function]}
                 style={
                   Object {
@@ -1539,7 +1567,7 @@ ShallowWrapper {
             className="list-group-item d-flex justify-content-between align-items-center"
           >
             <span
-              className="col-1 badge badge-primary"
+              className="type-icon col-1 badge badge-primary"
             >
               <Ionicon
                 beat={false}
@@ -1558,26 +1586,27 @@ ShallowWrapper {
               />
             </span>
             <span
-              className="col-4"
+              className="title-name col-4"
             >
               挣外块
             </span>
             <span
-              className="col-2 font-weight-bold"
+              className="price col-2 font-weight-bold"
             >
               +
               2500
               元
             </span>
             <span
-              className="col-3"
+              className="date col-3"
             >
               2019-02-15
             </span>
             <span
-              className="col-2"
+              className="control-btn-group col-2"
             >
               <a
+                className="btn-modify"
                 onClick={[Function]}
               >
                 <Ionicon
@@ -1597,6 +1626,7 @@ ShallowWrapper {
                 />
               </a>
               <a
+                className="btn-delete"
                 onClick={[Function]}
                 style={
                   Object {
@@ -1634,7 +1664,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <span
-                className="col-1 badge badge-primary"
+                className="type-icon col-1 badge badge-primary"
               >
                 <Ionicon
                   beat={false}
@@ -1653,26 +1683,27 @@ ShallowWrapper {
                 />
               </span>,
               <span
-                className="col-4"
+                className="title-name col-4"
               >
                 去旅游
               </span>,
               <span
-                className="col-2 font-weight-bold"
+                className="price col-2 font-weight-bold"
               >
                 -
                 20000
                 元
               </span>,
               <span
-                className="col-3"
+                className="date col-3"
               >
                 2019-02-01
               </span>,
               <span
-                className="col-2"
+                className="control-btn-group col-2"
               >
                 <a
+                  className="btn-modify"
                   onClick={[Function]}
                 >
                   <Ionicon
@@ -1692,6 +1723,7 @@ ShallowWrapper {
                   />
                 </a>
                 <a
+                  className="btn-delete"
                   onClick={[Function]}
                   style={
                     Object {
@@ -1741,7 +1773,7 @@ ShallowWrapper {
                     }
                   }
                 />,
-                "className": "col-1 badge badge-primary",
+                "className": "type-icon col-1 badge badge-primary",
               },
               "ref": null,
               "rendered": Object {
@@ -1773,7 +1805,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "去旅游",
-                "className": "col-4",
+                "className": "title-name col-4",
               },
               "ref": null,
               "rendered": "去旅游",
@@ -1789,7 +1821,7 @@ ShallowWrapper {
                   20000,
                   "元",
                 ],
-                "className": "col-2 font-weight-bold",
+                "className": "price col-2 font-weight-bold",
               },
               "ref": null,
               "rendered": Array [
@@ -1805,7 +1837,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "2019-02-01",
-                "className": "col-3",
+                "className": "date col-3",
               },
               "ref": null,
               "rendered": "2019-02-01",
@@ -1818,6 +1850,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <a
+                    className="btn-modify"
                     onClick={[Function]}
                   >
                     <Ionicon
@@ -1837,6 +1870,7 @@ ShallowWrapper {
                     />
                   </a>,
                   <a
+                    className="btn-delete"
                     onClick={[Function]}
                     style={
                       Object {
@@ -1861,7 +1895,7 @@ ShallowWrapper {
                     />
                   </a>,
                 ],
-                "className": "col-2",
+                "className": "control-btn-group col-2",
               },
               "ref": null,
               "rendered": Array [
@@ -1885,6 +1919,7 @@ ShallowWrapper {
                         }
                       }
                     />,
+                    "className": "btn-modify",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -1931,6 +1966,7 @@ ShallowWrapper {
                         }
                       }
                     />,
+                    "className": "btn-delete",
                     "onClick": [Function],
                     "style": Object {
                       "marginLeft": "10px",
@@ -1973,7 +2009,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <span
-                className="col-1 badge badge-primary"
+                className="type-icon col-1 badge badge-primary"
               >
                 <Ionicon
                   beat={false}
@@ -1992,26 +2028,27 @@ ShallowWrapper {
                 />
               </span>,
               <span
-                className="col-4"
+                className="title-name col-4"
               >
                 吃美食
               </span>,
               <span
-                className="col-2 font-weight-bold"
+                className="price col-2 font-weight-bold"
               >
                 -
                 500
                 元
               </span>,
               <span
-                className="col-3"
+                className="date col-3"
               >
                 2019-02-02
               </span>,
               <span
-                className="col-2"
+                className="control-btn-group col-2"
               >
                 <a
+                  className="btn-modify"
                   onClick={[Function]}
                 >
                   <Ionicon
@@ -2031,6 +2068,7 @@ ShallowWrapper {
                   />
                 </a>
                 <a
+                  className="btn-delete"
                   onClick={[Function]}
                   style={
                     Object {
@@ -2080,7 +2118,7 @@ ShallowWrapper {
                     }
                   }
                 />,
-                "className": "col-1 badge badge-primary",
+                "className": "type-icon col-1 badge badge-primary",
               },
               "ref": null,
               "rendered": Object {
@@ -2112,7 +2150,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "吃美食",
-                "className": "col-4",
+                "className": "title-name col-4",
               },
               "ref": null,
               "rendered": "吃美食",
@@ -2128,7 +2166,7 @@ ShallowWrapper {
                   500,
                   "元",
                 ],
-                "className": "col-2 font-weight-bold",
+                "className": "price col-2 font-weight-bold",
               },
               "ref": null,
               "rendered": Array [
@@ -2144,7 +2182,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "2019-02-02",
-                "className": "col-3",
+                "className": "date col-3",
               },
               "ref": null,
               "rendered": "2019-02-02",
@@ -2157,6 +2195,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <a
+                    className="btn-modify"
                     onClick={[Function]}
                   >
                     <Ionicon
@@ -2176,6 +2215,7 @@ ShallowWrapper {
                     />
                   </a>,
                   <a
+                    className="btn-delete"
                     onClick={[Function]}
                     style={
                       Object {
@@ -2200,7 +2240,7 @@ ShallowWrapper {
                     />
                   </a>,
                 ],
-                "className": "col-2",
+                "className": "control-btn-group col-2",
               },
               "ref": null,
               "rendered": Array [
@@ -2224,6 +2264,7 @@ ShallowWrapper {
                         }
                       }
                     />,
+                    "className": "btn-modify",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -2270,6 +2311,7 @@ ShallowWrapper {
                         }
                       }
                     />,
+                    "className": "btn-delete",
                     "onClick": [Function],
                     "style": Object {
                       "marginLeft": "10px",
@@ -2312,7 +2354,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <span
-                className="col-1 badge badge-primary"
+                className="type-icon col-1 badge badge-primary"
               >
                 <Ionicon
                   beat={false}
@@ -2331,26 +2373,27 @@ ShallowWrapper {
                 />
               </span>,
               <span
-                className="col-4"
+                className="title-name col-4"
               >
                 挣外块
               </span>,
               <span
-                className="col-2 font-weight-bold"
+                className="price col-2 font-weight-bold"
               >
                 +
                 2500
                 元
               </span>,
               <span
-                className="col-3"
+                className="date col-3"
               >
                 2019-02-15
               </span>,
               <span
-                className="col-2"
+                className="control-btn-group col-2"
               >
                 <a
+                  className="btn-modify"
                   onClick={[Function]}
                 >
                   <Ionicon
@@ -2370,6 +2413,7 @@ ShallowWrapper {
                   />
                 </a>
                 <a
+                  className="btn-delete"
                   onClick={[Function]}
                   style={
                     Object {
@@ -2419,7 +2463,7 @@ ShallowWrapper {
                     }
                   }
                 />,
-                "className": "col-1 badge badge-primary",
+                "className": "type-icon col-1 badge badge-primary",
               },
               "ref": null,
               "rendered": Object {
@@ -2451,7 +2495,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "挣外块",
-                "className": "col-4",
+                "className": "title-name col-4",
               },
               "ref": null,
               "rendered": "挣外块",
@@ -2467,7 +2511,7 @@ ShallowWrapper {
                   2500,
                   "元",
                 ],
-                "className": "col-2 font-weight-bold",
+                "className": "price col-2 font-weight-bold",
               },
               "ref": null,
               "rendered": Array [
@@ -2483,7 +2527,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "2019-02-15",
-                "className": "col-3",
+                "className": "date col-3",
               },
               "ref": null,
               "rendered": "2019-02-15",
@@ -2496,6 +2540,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <a
+                    className="btn-modify"
                     onClick={[Function]}
                   >
                     <Ionicon
@@ -2515,6 +2560,7 @@ ShallowWrapper {
                     />
                   </a>,
                   <a
+                    className="btn-delete"
                     onClick={[Function]}
                     style={
                       Object {
@@ -2539,7 +2585,7 @@ ShallowWrapper {
                     />
                   </a>,
                 ],
-                "className": "col-2",
+                "className": "control-btn-group col-2",
               },
               "ref": null,
               "rendered": Array [
@@ -2563,6 +2609,7 @@ ShallowWrapper {
                         }
                       }
                     />,
+                    "className": "btn-modify",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -2609,6 +2656,7 @@ ShallowWrapper {
                         }
                       }
                     />,
+                    "className": "btn-delete",
                     "onClick": [Function],
                     "style": Object {
                       "marginLeft": "10px",

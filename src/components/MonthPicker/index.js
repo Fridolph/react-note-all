@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { padLeft, range } from '../../utils'
 
 class MonthPicker extends Component {
@@ -39,8 +39,19 @@ class MonthPicker extends Component {
     })
   }
 
-  componentDidMount() {
+  handleClick = event => {
+    if (this.node.contains(event.target)) return
+    this.setState({
+      isOpen: false
+    })
+  }
 
+  componentDidMount() {
+    document.addEventListener('click', this.handleClick, false)
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('click', this.handleClick, false)
   }
 
   render() {
@@ -52,7 +63,7 @@ class MonthPicker extends Component {
     // console.log('monthRange: ', monthRange)
 
     return (
-      <div className="dropdown month-picker-component">
+      <div className="dropdown month-picker-component" ref={ref => this.node = ref}>
         <h5 style={{color: '#ddd'}}>选择时间</h5>
         <button
           className="btn btn-lg btn-secondary dropdown-toggle"
@@ -61,41 +72,33 @@ class MonthPicker extends Component {
           {`${selectedYear}年${padLeft(selectedMonth)}月`}
         </button>
         {
-          isOpen && <div className="dropdown-menu" style={{display: 'block'}}>
-            {/* <div className="row">
-              <div className="col">
-                <a
-                  className="dropdown-item"
-                  href="#">
-                  所有日期
-                </a>
-              </div>
-            </div> */}
+          isOpen && (
+          <div className="dropdown-menu" style={{display: 'block'}}>
             <div className="row">
-              <div className="col border-right">
+              <div className="col years-range border-right">
                 { yearRange.map((y, i) =>
                   <a
                     key={i}
                     className={y === selectedYear ? 'dropdown-item active' : 'dropdown-item'}
                     onClick={e => this.selectYear(e, y)}
                     href="#">
-                    {y}年
+                    {y} 年
                   </a>
                 )}
               </div>
-              <div className="col">
+              <div className="col months-range">
                 { monthRange.map((m, i) =>
                   <a
                     key={i}
                     className={m === selectedMonth ? 'dropdown-item active' : 'dropdown-item'}
                     onClick={e => this.selectMonth(e, m)}
                     href="#">
-                    {padLeft(m)}月
+                    {padLeft(m)} 月
                   </a>
                 )}
               </div>
             </div>
-          </div>
+          </div> )
         }
       </div>
     )

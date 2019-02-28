@@ -65,14 +65,14 @@ class Home extends Component {
     this.state = {
       income: 0,
       outcome: 20500,
-      currentDate: parseToYearAndMonth(),
+      currentDate: parseToYearAndMonth('2019/02/01'),
       tabView: LIST_VIEW,
       items
     }
   }
 
   onDateChange = date => {
-    const {items} = this.state
+    // const {items} = this.state
     console.log('onDateChange: ', date)
     this.setState({
       currentDate: date
@@ -150,7 +150,8 @@ class Home extends Component {
             onTabChange={this.onTabChange}
           />
 
-          <CreateBtn onClick={this.createItem} />
+          <CreateBtn />
+          {/* <CreateBtn onClick={this.createItem} /> */}
 
           {
             tabView === LIST_VIEW ? (
@@ -159,7 +160,9 @@ class Home extends Component {
                 onModifyItem={this.onModifyItem}
                 onDeleteItem={this.onDeleteItem}
               />
-            ) : '这里是图表模式的区域'
+            ) : <div>
+              <h2 className="chart-title">这里是图表模式的区域</h2>
+            </div>
           }
         </div>
       </React.Fragment>
