@@ -1,12 +1,18 @@
 import React, {Component} from 'react'
 // import './home.css'
+import Ionicon from 'react-ionicons'
+
 import TotalPrice from '../../components/TotalPrice/index'
 import MonthPicker from '../../components/MonthPicker/index'
-import ViewTab from '../../components/ViewTab/index'
+// import ViewTab from '../../components/ViewTab/index'
 import PriceList from '../../components/PriceList/index'
 import CreateBtn from '../../components/CreateBtn/index'
+import Tabs, {Tab} from '../../components/Tabs/index'
 
-import { LIST_VIEW, CHART_VIEW } from '../../constants'
+import {
+  LIST_VIEW,
+  CHART_VIEW
+} from '../../constants'
 import {padLeft, padItemId, parseToYearAndMonth, newDate} from '../../utils'
 
 export const categories = {
@@ -59,6 +65,8 @@ export const items = [
 
 let itemId = 3
 
+const tabsText = [LIST_VIEW, CHART_VIEW]
+
 class Home extends Component {
   constructor() {
     super()
@@ -66,7 +74,7 @@ class Home extends Component {
       income: 0,
       outcome: 20500,
       currentDate: parseToYearAndMonth('2019/02/01'),
-      tabView: LIST_VIEW,
+      tabView: tabsText[0],
       items
     }
   }
@@ -99,9 +107,9 @@ class Home extends Component {
     })
   }
 
-  onTabChange = (view) => {
+  onTabChange = index => {
     this.setState({
-      tabView: view
+      tabView: tabsText[index]
     })
   }
 
@@ -145,10 +153,31 @@ class Home extends Component {
         </header>
 
         <div className="contant-area py-3 px-3">
-          <ViewTab
+          <Tabs activeIndex={0} onTabChange={this.onTabChange}>
+            <Tab>
+              <Ionicon
+                className="rounded-circle mr-2"
+                fontSize="25px"
+                color={'#007bff'}
+                icon="ios-paper"
+              />
+              <span>列表模式</span>
+            </Tab>
+            <Tab>
+              <Ionicon
+                className="rounded-circle mr-2"
+                fontSize="25px"
+                color={'#007bff'}
+                icon="ios-pie"
+              />
+              <span>图表模式</span>
+            </Tab>
+          </Tabs>
+
+          {/* <ViewTab
             activeTab={tabView}
             onTabChange={this.onTabChange}
-          />
+          /> */}
 
           <CreateBtn />
           {/* <CreateBtn onClick={this.createItem} /> */}

@@ -1,45 +1,37 @@
 import React, {Component} from 'react'
 import Ionicon from 'react-ionicons'
+import './style.css'
 
 export default class CategorySelect extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      selectedCategoryId: props.selectedCategory && props.selectedCategory.id
-    }
-  }
-
-  selectCategory = (event, category) => {
-    event.preventDefault()
-    this.setState({
-      selectCategoryId: category.id
-    })
-    this.props.onSelectCategory(category)
+  selectCategory = categoryId => {
+    this.props.onSelectCategory(categoryId)
   }
 
   render() {
-    const {categories} = this.props
-    const {selectedCategoryId} = this.state
+    const {categories, selectedCategoryId} = this.props
     return (
-      <div className="category-select-component">
+      <div className="container-fluid category-select-component">
         <div className="row">
           {
             categories.map((category, index) => {
-              const activeClassName = selectedCategoryId === category.id
-                ? 'category-item col-3 active'
-                : 'category-item col-3'
+              const activeName = selectedCategoryId === category.id
+                ? 'category-item active'
+                : 'category-item'
 
               return (
-                <div
-                  className={activeClassName}
-                  key={index}
-                  onClick={event => this.selectCategory(event, category)}>
-                  <Ionicon
-                    className="rounded-circle"
-                    fontSize="50px"
-                    color="#555"
-                    icon={category.iconName}
-                  />
+                <div className="col-3" key={category.id}>
+                  <div
+                    className={activeName}
+                    key={index}
+                    onClick={() => this.selectCategory(category.id)}>
+                    <Ionicon
+                      className="rounded-circle"
+                      fontSize="40px"
+                      color="#555"
+                      icon={category.iconName}
+                    /><br/>
+                    <span>{category.name}</span>
+                  </div>
                 </div>
               )
             })

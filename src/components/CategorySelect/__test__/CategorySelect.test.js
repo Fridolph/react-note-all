@@ -15,13 +15,13 @@ let categories = [
     id: 2,
     name: '理财',
     type: 'income',
-    iconName: 'ios-yen'
+    iconName: 'ios-paper'
   },
   {
     id: 3,
     name: '挣外块',
     type: 'income',
-    iconName: 'ios-yen'
+    iconName: 'ios-paper'
   }
 ]
 
@@ -32,7 +32,7 @@ let props = {
 
 let props_with_category = {
   categories,
-  selectedCategory: categories[0],
+  selectedCategoryId: 1,
   onSelectCategory: jest.fn()
 }
 
@@ -60,9 +60,8 @@ describe('@src/components/CategorySelect', () => {
 
   it('点击其他项，可以将高亮状态切换到其他项', () => {
     const wrapper = mount(<CategorySelect {...props_with_category} />)
+    // wrapper.find('.category-item').at(1).simulate('click', { preventDefault: () => {} })
     wrapper.find('.category-item').at(1).simulate('click')
-    expect(wrapper.find('.category-item').at(1).hasClass('active')).toEqual(true)
-    expect(wrapper.find('.category-item').first().hasClass('active')).toEqual(false)
-    expect(props_with_category.onSelectCategory).toHaveCalled
+    expect(props_with_category.onSelectCategory).toHaveBeenCalledWith(2)
   })
 })
